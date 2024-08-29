@@ -42,13 +42,24 @@ var num2 = "shdbfsbn";
 // var num2 = 40;
 // console.log(num >= num2);
 
-var age = 18;
-if (age >= 20){
-    console.log("than visit the website")
-}
-else if(age > 20){
-    console.log("You are adult")
-}
-else {
-    console.log("you are a kid");
+// var age = 18;
+// if (age >= 20){
+//     console.log("than visit the website")
+// }
+// else if(age > 20){
+//     console.log("You are adult")
+// }
+// else {
+//     console.log("you are a kid");
+// }
+
+// logiacl operator use 
+var housePrice = 100000;
+var houseColor = "Borwn and white";
+var gerage = ture;
+
+if (housePrice < 200000 && houseColor > "Brown and white"){
+    console.log("i will buy this house")
+} else{
+    
 }
