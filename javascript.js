@@ -54,12 +54,67 @@ var num2 = "shdbfsbn";
 // }
 
 // logiacl operator use 
-var housePrice = 100000;
-var houseColor = "Borwn and white";
-var gerage = ture;
+// var housePrice = 100000;
+// var houseColor = "Borwn and white";
+// var gerage = ture;
 
-if (housePrice < 200000 && houseColor > "Brown and white"){
-    console.log("i will buy this house")
-} else{
+// if (housePrice < 200000 && houseColor > "Brown and white"){
+//     console.log("i will buy this house")
+// } else{
     
+// }
+
+// multi lavel if else condition
+
+// let childAge = 15;
+// let adultAge = 29;
+// let oldMan = 40;
+// let foodPrice = 1000;
+
+// if (childAge >= 18){
+//     console.log("you can eat for free");
+// }else if(adultAge <= 20 ){
+//     const discount = foodPrice * 5 / 100;
+//     const payamount = foodPrice - discount;
+//     console.log(payamount);
+// }
+// else if(oldMan >= 50){
+//     const discount = foodPrice * 50 / 100;
+//     const payamount = foodPrice - discount;
+//     console.log(payamount);
+// } else{
+//     console.log("you have to pay full amount" + " " + foodPrice);
+// }
+
+// grating cheaking
+
+let personNumber = Number(prompt("enter your mask : "));
+
+if(personNumber <= 0 || personNumber > 100){
+    document.write("not a valid number")
 }
+else if(personNumber >= 80 && personNumber <= 100){
+    document.write("you have" + " A+")
+}
+else if(personNumber >= 70 && personNumber <= 79){
+    document.write("you have" + " A")
+}
+else if(personNumber >= 60 && personNumber <= 69){
+    document.write("you have" + " A-")
+}
+else if(personNumber >= 50 && personNumber <= 59){
+    document.write("you have" + " B")
+}
+else if(personNumber >= 40 && personNumber <= 49){
+    document.write("you have" + " C")
+}
+else if(personNumber >= 35 && personNumber <= 39){
+    document.write("you have" + " D")
+}
+else if(personNumber >= 30 && personNumber <= 34){
+    document.write("you have" + " E")
+}
+else{
+    document.write("fail")
+}
+
