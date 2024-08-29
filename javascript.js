@@ -7,10 +7,10 @@ var personName = "SAJEEB";
 // isNaN --> 
 var num = 23;
 var num2 = "shdbfsbn";
-// var resul = num + num2;
-console.log(num + parseInt(num2));
+//it's optional var resul = num + num2;
+// console.log(num + parseInt(num2));
 // its give u an isNaN becouse num2 is string not a number
-//  
+  
 
 // logical operator 
 // 1. logical and &&
@@ -31,4 +31,24 @@ console.log(num + parseInt(num2));
 // 6. ===
 // 7. !==
 
-// 
+// class 2 introduction to conditional
+//  if, else if, else
+
+// var num = 10;
+// var num2 = 40;
+// console.log(num < num2);
+
+// var num = 20;
+// var num2 = 40;
+// console.log(num >= num2);
+
+var age = 18;
+if (age >= 20){
+    console.log("than visit the website")
+}
+else if(age > 20){
+    console.log("You are adult")
+}
+else {
+    console.log("you are a kid");
+}
