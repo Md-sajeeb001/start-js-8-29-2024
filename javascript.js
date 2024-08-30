@@ -163,7 +163,7 @@
 //     console.log("this is not a array")
 // }
 
-let numArray = [1, 2, 3, 4, 5,];
-let num2Array = [6, 7, 8, 9, 10];
-let result = numArray.concat(num2Array);
-console.log(result);
+// let numArray = [1, 2, 3, 4, 5,];
+// let num2Array = [6, 7, 8, 9, 10];
+// let result = numArray.concat(num2Array);
+// console.log(result);
