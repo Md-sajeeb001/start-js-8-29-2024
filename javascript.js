@@ -1,12 +1,12 @@
 // declear variable need 5 items in js *
 
-var personName = "SAJEEB";
+// var personName = "SAJEEB";
 
 // using operator in js
 // +, -, *, /, %,
 // isNaN --> 
-var num = 23;
-var num2 = "shdbfsbn";
+// var num = 23;
+// var num2 = "shdbfsbn";
 //it's optional var resul = num + num2;
 // console.log(num + parseInt(num2));
 // its give u an isNaN becouse num2 is string not a number
@@ -88,33 +88,82 @@ var num2 = "shdbfsbn";
 
 // grating cheaking
 
-let personNumber = Number(prompt("enter your mask : "));
+// let personNumber = Number(prompt("enter your mask : "));
 
-if(personNumber <= 0 || personNumber > 100){
-    document.write("not a valid number")
-}
-else if(personNumber >= 80 && personNumber <= 100){
-    document.write("you have" + " A+")
-}
-else if(personNumber >= 70 && personNumber <= 79){
-    document.write("you have" + " A")
-}
-else if(personNumber >= 60 && personNumber <= 69){
-    document.write("you have" + " A-")
-}
-else if(personNumber >= 50 && personNumber <= 59){
-    document.write("you have" + " B")
-}
-else if(personNumber >= 40 && personNumber <= 49){
-    document.write("you have" + " C")
-}
-else if(personNumber >= 35 && personNumber <= 39){
-    document.write("you have" + " D")
-}
-else if(personNumber >= 30 && personNumber <= 34){
-    document.write("you have" + " E")
-}
-else{
-    document.write("fail")
-}
+// if(personNumber <= 0 || personNumber > 100){
+//     document.write("not a valid number")
+// }
+// else if(personNumber >= 80 && personNumber <= 100){
+//     document.write("you have" + " A+")
+// }
+// else if(personNumber >= 70 && personNumber <= 79){
+//     document.write("you have" + " A")
+// }
+// else if(personNumber >= 60 && personNumber <= 69){
+//     document.write("you have" + " A-")
+// }
+// else if(personNumber >= 50 && personNumber <= 59){
+//     document.write("you have" + " B")
+// }
+// else if(personNumber >= 40 && personNumber <= 49){
+//     document.write("you have" + " C")
+// }
+// else if(personNumber >= 35 && personNumber <= 39){
+//     document.write("you have" + " D")
+// }
+// else if(personNumber >= 30 && personNumber <= 34){
+//     document.write("you have" + " E")
+// }
+// else{
+//     document.write("fail")
+// }
 
+// advanced if else shorthand ternary operator
+// dubole logical not !! jante hobe
+// ternary operator o jante hobe
+
+// Declare an array 
+
+// let furitsName = ["Banana", "Mango", "Orange", "pynaple"];
+
+// console.log(furitsName.length);
+// console.log(furitsName.indexOf[2]);
+// console.log(furitsName);
+// console.log(furitsName[3]);
+// furitsName[2] = "jambura";
+// console.log(furitsName)
+
+
+// let destinations = ["cox's bazar", "bandorbon", "shylet", "kaptai"];
+
+// console.log(destinations);
+// destinations.push("kolkata");
+// console.log(destinations);
+// destinations.unshift("delhi", "mumbai");
+// console.log(destinations);
+// destinations.pop();
+// console.log(destinations);
+
+// let book = ["bangla", "english", "math", "grammer"];
+// console.log(book.includes("math"));
+// console.log(book.includes("javascript"));
+// if(book.includes("english")){
+//     console.log("i have to learn english")
+// } else{
+//     console.log("i think it's not much important to learn programming")
+// }
+
+// const items = [1, 3, 4];
+// let num2 = 34;
+// console.log(Array.isArray(num2));
+// console.log(Array.isArray(items));
+// if(Array.isArray(items)){
+//     console.log('this is array')
+// } else{
+//     console.log("this is not a array")
+// }
+
+let numArray = [1, 2, 3, 4, 5,];
+let num2Array = [6, 7, 8, 9, 10];
+let result = numArray.concat(num2Array);
+console.log(result);
