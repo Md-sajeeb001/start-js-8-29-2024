@@ -167,3 +167,27 @@
 // let num2Array = [6, 7, 8, 9, 10];
 // let result = numArray.concat(num2Array);
 // console.log(result);
+
+// fundamental concept for loop 
+
+// 1. for loop
+// 2. for of loop
+// 3. for in loop
+
+// for of loop
+const numbers = [1, 2, 34, 23, 5, 76, 45];
+for(const num of numbers){
+    console.log(num);
+}
+
+// for loop
+// for(let i = 0; i < numbers.length; i++){
+//     console.log(numbers[i]);
+// }
+
+
+// for loop
+// const fruitBucket = ["banana", "orange", "mango", "pinepple"];
+// for(let i = 0; i < fruitBucket.length; i++){
+//     console.log(fruitBucket[i]);
+// }
