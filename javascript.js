@@ -168,6 +168,9 @@
 // let result = numArray.concat(num2Array);
 // console.log(result);
 
+
+
+// ----------------------------------------------------------------------------------
 // fundamental concept for loop 
 
 // 1. for loop
@@ -175,10 +178,10 @@
 // 3. for in loop
 
 // for of loop
-const numbers = [1, 2, 34, 23, 5, 76, 45];
-for(const num of numbers){
-    console.log(num);
-}
+// const numbers = [1, 2, 34, 23, 5, 76, 45];
+// for(const num of numbers){
+//     console.log(num);
+// }
 
 // for loop
 // for(let i = 0; i < numbers.length; i++){
@@ -191,3 +194,106 @@ for(const num of numbers){
 // for(let i = 0; i < fruitBucket.length; i++){
 //     console.log(fruitBucket[i]);
 // }
+
+// for in loop
+//   const personDetails = {fname: "jhone", lname: "deo", age: 45, htown: "usa"};
+
+//   for(let person in personDetails){
+//       console.log(person);
+//   }
+
+// WHILE LOOP 
+
+// print 1 to 100 numbers
+// let x = 1;
+
+// while(x <= 100){
+//     console.log(x);
+//     x++;
+// }
+
+// print koro 1 theke 100 ar moddhe even nunmbers gula k.
+// let numbers = 1;
+// let evenNumbers = 0;
+// while(numbers <= 100){
+//    console.log(numbers);
+//    evenNumbers = evenNumbers + numbers;
+//    console.log("1 to 100 even numbers : "+evenNumbers)
+//    numbers++;
+// }
+
+// print koro even number 1 to 50
+// let i = 1;
+// while(i <= 50 ){
+//     console.log(i);
+//    if(i % 2 === 0){
+//     console.log("even number" , i);
+//    }
+//     i++;
+// }
+
+// print koro even number 1 to 50
+// let i = 1;
+// while(i <= 50 ){
+//     console.log(i);
+//    if(i % 2 === 1){
+//     console.log("odd number" , i);
+//    }
+//     i++;
+// }
+
+// let i = 1;
+// while(i <= 50 ){
+//     console.log(i);
+//    if(i % 2 !== 1){
+//     console.log("even number" , i);
+//    }
+//     i++;
+// }
+// let y = 1;
+// while(y <= 50 ){
+//     console.log(y);
+//    if(y % 2 !== 0){
+//     console.log("odd number" , y);
+//    }
+//     y++;
+// }
+
+
+// I will invest at least 6 hrs every single day for next 60 days!" this message 60 times. So display this.
+
+// let hours = 1;
+// while(hours <= 60){
+//     console.log("I will invest at least 6 hrs every single day for next 60 days")
+//     hours++;
+// }
+
+
+// print even and odd numbers 
+
+// for(let i = 1; i <= 20; i++){
+//     if(i % 2 === 0){
+//         console.log("even" , i);
+//     }
+// }
+// for(let i = 0; i <= 30; i++){
+//     if(i % 2 === 1){
+//         console.log("odd" ,  i);
+//     }
+// }
+
+let num1 = 1;
+while(num1 <= 50){
+    if(num1 % 2 !==1){
+        console.log("this is a even number", num1);
+    }
+    num1++;
+}
+
+let num2 = 1;
+while(num2 <= 30){
+    if(num2 % 2 !== 0){
+        console.log("this is odd number", num2);
+    }
+    num2++;
+}
