@@ -657,3 +657,71 @@
 
 // bazerBucket["wnat to eat"] = "muri kha";
 // console.log(bazerBucket["wnat to eat"]);
+
+// keys, value, nasted object and delete
+
+// 1. keys--->
+// const computer = {
+//     brand: "hp",
+//     price: 20000,
+//     processor: "intel",
+//     hdd: "512gb",
+//     monitor: "lenovo"
+// }
+// console.log(computer);
+// const com = Object.keys(computer);
+// console.log(com);
+
+// 2. value --->
+
+// const computer = {
+//     brand: "hp",
+//     price: 20000,
+//     processor: "intel",
+//     hdd: "512gb",
+//     monitor: "lenovo"
+// }
+
+// const value = Object.values(computer);
+// console.log(value);
+
+
+// 3. Nasted way to get properties and value also change value
+
+// const car = {
+//     model: "Bugddi",
+//     price: 3.5000000,
+//     color: "black",
+//     speed: 350,
+//     tayer: 4,
+//     experience: "very good",
+//     details:{
+//         milage: "per 1min",
+//         light: "white",
+//         engine: 323234,
+//         cars: {
+//            carsName: ["Bmw", "Bugaddi", "lambo", "lenovo", "toyota", "muz-tang"],
+//         }
+//     }
+// }
+// delete nasted properties in Object
+// delete car.details.cars;
+// delete car.details
+
+// console.log(car)
+// const carLight = car["details"]["light"] = ["orange", "blue"];
+// console.log(carLight);
+
+
+// console.log(car["details"].engine);
+// const bike = car.details.cars.carsName[0] = "Bmw Bike";
+// console.log(bike);
+// console.log(car.details.cars.carsName);
+
+// console.log(car);
+// const carBugaddi = Object.keys(car);
+// console.log(carBugaddi);
+
+// const carValue = Object.values(car);
+// console.log(carValue);
+
