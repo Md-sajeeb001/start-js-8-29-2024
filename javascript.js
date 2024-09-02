@@ -534,12 +534,126 @@
 // console.log(students);
 // console.log(student);
 
-let myObject = {
-    name: 'John Doe',
-    age: 25,
-    city: 'Example City',
-    isStudent: true
-};
-for(let x in myObject){
-    console.log("keys :" + x ,typeof x);
-}
+// let myObject = {
+//     name: 'John Doe',
+//     age: 25,
+//     city: 'Example City',
+//     isStudent: true
+// };
+// for(let x in myObject){
+//     console.log("keys :" + x ,typeof x);
+// }
+
+// const country = "bangladesh";
+// console.log(country.toUpperCase());
+// const divishion = "cumilla";
+// const thana = new String("nangolkot");
+// console.log(thana)
+// console.log(typeof thana);
+
+// const numbers = [12, 34, 213, 54, 23];
+// console.log(numbers);
+// numbers[3] = 400;
+// console.log(numbers);
+
+// string is immutable --> not changeable
+// number is immutable --> it's can be changeable
+
+
+// let favPlace = "kolkata ";
+// let favPlace2 = " Kolkata";
+
+// if(favPlace.toLowerCase().trim() === favPlace2.toLowerCase().trim()){
+//     console.log("in sha Allha one day i will go in kolkata to visit")
+// } else{
+//     console.log("bangladesh a gurbo");
+// }
+
+// reverse a string in three diffrent ways
+
+
+// let sentence = "i am learning web development";
+
+// const reverse2 = sentence.split(" ").reverse().join(" ")
+// console.log(reverse2);
+
+
+// using for loop to reverse sentence
+
+// let rev = '';
+// for(let i = 0; i < sentence.length; i++){
+//     const letter = sentence[i];
+//     rev = letter + rev;
+// }
+// console.log(rev);
+
+
+// using for of loop to reverse sentence
+
+
+// let reverse = '';
+// for(const letter of sentence){
+//     reverse = letter + reverse;
+// }
+// console.log(reverse);
+
+// let reverse = '';
+// for(const letter of sentence){
+//     // console.log(letter);
+//     reverse = letter + reverse;
+// }
+// console.log(reverse);
+
+// using method() to reverse sentence 
+
+// let sentence2 = "i love kolkata one day I want to go in kolkata";
+
+// const rev = sentence2.split(' ').reverse().join(" ");
+// console.log(rev);
+
+// let sentence = "bangladesh";
+
+// const rev = sentence.split('').reverse().join(" ")
+// console.log(rev);
+
+// how to get and set properties and value in object
+
+// 1. dot symbol deya object ar property er value access kora
+// const personName = {
+//     fname: "mafia",
+//     lname: "khan",
+//     age: 34,
+//     htown: "canada"
+// } 
+// console.log(personName);
+// console.log(personName.htown);
+// console.log(personName.fname);
+
+// change value in object. 
+// personName[0] = "shufia";
+// console.log(personName[0]);
+
+// 2. third brket with dubble kotestion [""] get and set value
+
+// const bazerBucket = {
+//     apple: "300-taka",
+//     orange: 200,
+//     kagor: true,
+//     oil: "oil nesi",
+//     "have rice": "yes i alredy buy rice",
+//     "wnat to eat": ["biriyani", "polaw", "rost", "cingri"]
+// };
+
+// const fruts = 'kagor';
+// bazerBucket[fruts] = false;
+// console.log(bazerBucket["kagor"]);
+// console.log(bazerBucket['kagor']);
+
+// bazerBucket['apple']  = "watermelon"
+// console.log(bazerBucket['apple']);
+
+// bazerBucket["have rice"] = "no rice"
+// console.log(bazerBucket["have rice"]);
+
+// bazerBucket["wnat to eat"] = "muri kha";
+// console.log(bazerBucket["wnat to eat"]);
