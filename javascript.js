@@ -282,18 +282,71 @@
 //     }
 // }
 
-let num1 = 1;
-while(num1 <= 50){
-    if(num1 % 2 !==1){
-        console.log("this is a even number", num1);
+// let num1 = 1;
+// while(num1 <= 50){
+//     if(num1 % 2 !==1){
+//         console.log("this is a even number", num1);
+//     }
+//     num1++;
+// }
+
+// let num2 = 1;
+// while(num2 <= 30){
+//     if(num2 % 2 !== 0){
+//         console.log("this is odd number", num2);
+//     }
+//     num2++;
+// }
+
+// let multiNumbers = 1;
+// while(multiNumbers <= 20){
+//     if(multiNumbers % 5 === 0){
+//         console.log(multiNumbers);
+//     }
+//     multiNumbers++;
+// }
+
+// for(let numbers = 0; numbers <= 50; numbers++){
+//     if(numbers % 7 === 0){
+//         console.log(numbers);
+//     }
+// }
+
+// let a = 1;
+// while(a <= 60){
+//     if(a % 8 ===1){
+//      console.log("odd number", a)
+//     }
+//     a++;
+// }
+
+// for(let x = 0; x <= 40; x++){
+//     if(x % 6 === 1){
+//         console.log("this is odd number", x);
+//     }
+// }
+
+
+// let N = 1;
+// while(N <= 100){
+//     if(N % 8 === 0 || N % 5 === 0 || N % 10 === 1){
+//         console.log(N);
+//     }
+//     N++;
+// }
+
+for(let i = 1; i <= 80; i++){
+    if(i % 5 === 0){
+        console.log( i);
     }
-    num1++;
 }
 
-let num2 = 1;
-while(num2 <= 30){
-    if(num2 % 2 !== 0){
-        console.log("this is odd number", num2);
-    }
-    num2++;
-}
+// let x = 0;
+// for(let i = 1; i <= 50; i++){
+//     if(i % 3 === 0){
+//         console.log(i);
+//         x = x + i;
+//         console.log("form 1 to 50 divisible by 3 and also given a sum of numbers",x);
+//     }
+// }
+// console.log("total number is ", x);
