@@ -335,11 +335,11 @@
 //     N++;
 // }
 
-for(let i = 1; i <= 80; i++){
-    if(i % 5 === 0){
-        console.log( i);
-    }
-}
+// for(let i = 1; i <= 80; i++){
+//     if(i % 5 === 0){
+//         console.log( i);
+//     }
+// }
 
 // let x = 0;
 // for(let i = 1; i <= 50; i++){
@@ -350,3 +350,71 @@ for(let i = 1; i <= 80; i++){
 //     }
 // }
 // console.log("total number is ", x);
+
+
+// Find all the odd numbers from 61 to 100.
+
+// let num = 61;
+// while(num <= 100){
+//     if(num % 2 === 1){
+//         console.log("odd numbers" , num);
+//     }
+//     num++;
+// }
+
+// for(let num = 61; num <= 100; num++){
+//     if(num % 2 !==0){
+//         console.log("Odd num", num);
+//     }
+// }
+// // Find all the odd numbers from 61 to 100.
+// let evenNum = 78;
+// while(evenNum <= 100){
+//     if(evenNum % 2 === 0){
+//         console.log("even numbers" , evenNum);
+//     }
+//     evenNum++;
+// } 
+
+// for(let evenNum = 78; evenNum <= 100; evenNum++){
+//     if(evenNum % 2 !==1){
+//         console.log("even numbers", evenNum);
+//     }
+// }
+
+// Display sum of all the odd numbers from 81 to 131.
+
+// let num2 = 81;
+// let sumNum2 = 0;
+// while(num2 <= 131){
+//     if(num2 % 2 === 1){
+//         console.log("odd numbers ", num2)
+//         sumNum2 = sumNum2 + num2;
+//         console.log("total", sumNum2);
+//     }
+//     num2++;
+// }
+// console.log("total sum numbers", sumNum2);
+
+// Display sum of all the even numbers from 206 to 311.
+// let evenNum = 206;
+// let evenSum = 0;
+// while(evenNum <= 311){
+//     if(evenNum % 2 === 0){
+//         console.log("even numbr", evenNum);
+//         evenSum = evenNum + evenSum;
+//         console.log("even sum num", evenSum);
+//     }
+//     evenNum++;
+// }
+// console.log("evenSum total Numbers", evenSum);
+
+// let evenTotal = 0;
+// for(let evenNum = 206; evenNum <= 311; evenNum++){
+//     if(evenNum % 2 === 0){
+//         console.log("even numbers", evenNum);
+//         evenTotal = evenTotal + evenNum;
+//         console.log("evensum ", evenTotal);
+//     }
+// }
+// console.log("total even Number sum", evenTotal);
