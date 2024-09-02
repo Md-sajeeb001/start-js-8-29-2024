@@ -418,3 +418,128 @@
 //     }
 // }
 // console.log("total even Number sum", evenTotal);
+
+// Implement a countdown timer that counts down from 21 to 15.
+
+// let countdown = 21;
+// while(countdown >= 15){
+//     console.log(countdown);
+//     countdown--;
+// }
+
+// Write a loop 1 to 200. Use break to exit the loop once you find 100.
+
+// let fNumber = 1;
+// while(fNumber <= 300){
+//     console.log(fNumber);
+//     if(fNumber >= 100){
+//         break;
+//     }
+//     fNumber++;
+// }
+// console.log("break" ,fNumber);
+
+// for(let fNumber = 1; fNumber <= 300; fNumber++){
+//     console.log("break",fNumber);
+//     if(fNumber >= 100){
+//         break;
+//     }
+//     fNumber++;
+// }
+
+
+// let initNum = 1;
+// while(initNum <= 200){
+//     console.log(initNum);
+//     if(initNum >= 70){
+//         break;
+//     }
+//     initNum++;
+// }
+
+// Write a while loop that adds numbers starting from 1, but stops (using break) as soon as the sum reaches or exceeds 100
+// let x = 1;
+// let sum = 0;
+// while(true){
+//     sum = sum + x;
+//     if(sum >= 100){
+//         break;
+//     }
+//     x++;
+// }
+// console.log("sum numbers" ,sum);
+
+// let x = 1;
+// let initNum = 0;
+// while(true){
+//     initNum = initNum + x;
+//    if(initNum >= 100){
+//     break;
+//    }
+//    initNum++;
+// }
+// console.log(initNum);
+
+// let i = 1;
+// let sum2 = 0;
+// while(i <= 100){
+//     sum2 = sum2 * i;
+//     if(sum2 >= 16){
+//         break
+//     }
+//     sum2++;
+// }
+// console.log(sum2);
+// let str = "Mississippi";
+// console.log(str.indexOf("i", 3));
+
+// const colors = {
+//     red: "#ff0000",
+//     green: "#00ff00",
+//     blue: "#0000ff",
+//     "golden rod": '#daa520'
+// };
+// console.log(colors["golden rod"]);
+
+// const car = {
+//     make: "Toyota",
+//     model: "Corolla",
+//     year: 2020,
+//     "pessenger capacity": 5
+// };
+// console.log(car["pessenger capacity"]);
+
+// const student = {
+//     name: "Hamim Sakep",
+//     id: 5421,
+//     physics: {
+//         subject: "HSC Physics",
+//         author: "Shahjahan Tapan",
+//         marks: 30
+//     }
+// };
+// let mark = student.physics.marks;
+// console.log(mark);
+
+// let student = {
+//     name: 'Ariana Grande',
+//     age: 21,
+//     city: 'Gaibandha',
+//     isStudent: true
+// };
+// for(let prop in student){
+//     console.log(prop.length);
+// }
+// let students = Object.keys(student);
+// console.log(students);
+// console.log(student);
+
+let myObject = {
+    name: 'John Doe',
+    age: 25,
+    city: 'Example City',
+    isStudent: true
+};
+for(let x in myObject){
+    console.log("keys :" + x ,typeof x);
+}
