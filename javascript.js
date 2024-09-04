@@ -801,8 +801,24 @@ const numbers = [23, 34, 23, 123, 5644, 4323];
 // }
 // console.log(x);
 
-
 // for(let i = sting.length -1; i >= 0; i--){
 //     const srt = sting[i];
 //     console.log(srt);
 // }
+
+const personName = ["kashem", "lashem", "pashem", "kasen", "laden"];
+
+const perNam = personName[2] = "anis";
+// console.log(perNam);
+
+// console.log("change value " +personName);
+
+const rev = [];
+for(const rev_rev of personName){
+    rev.unshift(rev_rev);
+}
+// console.log(rev);
+
+for(let i = personName.length -1; i >= 0; i--){
+    // console.log(personName[i]);
+}
