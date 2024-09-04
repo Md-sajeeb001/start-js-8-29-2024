@@ -725,3 +725,84 @@
 // const carValue = Object.values(car);
 // console.log(carValue);
 
+// const car = {
+//         model: "Bugddi",
+//         price: 3.5000000,
+//         color: "black",
+//         speed: 350,
+//         tayer: 4,
+// }
+
+// console.log(carS);
+
+// const carS = Object.keys(car);
+// for(const carDetails of carS){
+//     console.log(carDetails, car[carDetails]);
+// }
+
+// const carValue = Object.values(car);
+// for(const car of carValue){
+//     console.log(car);
+// }
+
+// console.log(car);
+// for(const cars in car){
+//     console.log("keys",cars,"|", "value" ,car[cars]);
+// }
+
+// const myObject = {
+//     name: 'John Doe',
+//     age: 25,
+//     city: 'Example City',
+//     isStudent: true
+// }
+// const objectValue = Object.keys(myObject);
+
+// for(const person in myObject){
+//     console.log( "key:" ,person, " | " , "type:" ,  myObject[person]);
+// }
+
+// const fruit = ["golap", "joba", "beli"];
+
+// for(let i = fruit.length-1; i >= 0; i--){
+//     console.log(fruit[i]);
+// }
+
+// const rev = fruit.reverse();
+// console.log(rev);
+// const reverse = [];
+// for(const fruits of fruit){
+//     reverse.unshift(fruits);
+// }
+// console.log(reverse);
+
+const numbers = [23, 34, 23, 123, 5644, 4323];
+// console.log(numbers);
+// const rev2 = numbers.reverse();
+// console.log(rev2);
+
+// let rev3 = [];
+// for(const rev of numbers){
+//     rev3.unshift(rev);
+// }
+// console.log(rev3);
+
+// for(let i = numbers.length -1; i >= 0; i--){
+//     const num = numbers[i];
+//     console.log(num);
+// }
+
+// const sting = "Bangladesh";
+// console.log(sting);
+
+// const x = [];
+// for(const i of sting){
+//     x.unshift(i);
+// }
+// console.log(x);
+
+
+// for(let i = sting.length -1; i >= 0; i--){
+//     const srt = sting[i];
+//     console.log(srt);
+// }
