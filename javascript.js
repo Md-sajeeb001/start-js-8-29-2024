@@ -1008,12 +1008,12 @@ const sentences = "hi i am a junior web developer";
 // console.log(isEven(5));
 // console.log(isEven(8));
 
-function isOddNumbers(number){
-    if(number % 2 !==0 ){
-        return true;
-    }
-    return false;
-}
+// function isOddNumbers(number){
+//     if(number % 2 !==0 ){
+//         return true;
+//     }
+//     return false;
+// }
 // console.log(isOddNumbers(5));
 // console.log(isOddNumbers(20));
 
@@ -1022,3 +1022,75 @@ function isOddNumbers(number){
 
 // const res2 = isOddNumbers(10);
 // console.log("odd number : " + res2);
+
+// function srtSize(str){
+//     const stringSize = str.length;
+//     console.log(str ,stringSize);
+//     if(stringSize % 2 === 0){
+//         console.log("even size");
+//     } else{
+//         console.log("odd size");
+//     }
+// }
+
+// srtSize("bangladesh");
+// srtSize("cumilla");
+
+// function checkString(str){
+//    const stringSize = str.length;
+//    console.log(str, stringSize);
+//    if(stringSize % 2 === 0){
+//     console.log("even size");
+//     return true;
+//    } else{
+//     console.log("odd size");
+//     return false;
+//    }
+// }
+
+// checkString("kolkata");
+// checkString("canada");
+
+
+// function myFunction(num, dubbleNum){
+//     if(dubbleNum === false){
+//         const result = num + 2;
+//         return result;
+//     }  else {
+//         const result2 = num * 3;
+//         return result2;
+//     }
+// }
+// console.log(myFunction(5, true));
+// console.log(myFunction(10, false));
+
+
+// function myNumbers(num, num2){
+//     if(num2 === true){
+//         const result = num / 5;
+//         return result;
+//     }
+//     else {
+//         const result2 = num * 3;
+//         return result2;
+//     }
+// }
+
+// console.log(myNumbers(8, true));
+// console.log(myNumbers(8, false));
+
+// function cheakFunction(num, cheak){
+//     if(cheak === true){
+//         const number = num * 10;
+//         return number;
+//     } else {
+//         const number2 = num / 2;
+//         return number2;
+//     }
+// }
+
+// const num1 = 8;
+// console.log(cheakFunction(num1, true));
+
+// const num2 = 4;
+// console.log(cheakFunction(num2, false));
