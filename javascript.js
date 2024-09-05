@@ -557,8 +557,7 @@
 // console.log(numbers);
 
 // string is immutable --> not changeable
-// number is immutable --> it's can be changeable
-
+// number is mutable --> it's can be changeable
 
 // let favPlace = "kolkata ";
 // let favPlace2 = " Kolkata";
@@ -569,8 +568,7 @@
 //     console.log("bangladesh a gurbo");
 // }
 
-// reverse a string in three diffrent ways
-
+// 1. reverse a string in three diffrent ways
 
 // let sentence = "i am learning web development";
 
@@ -578,7 +576,7 @@
 // console.log(reverse2);
 
 
-// using for loop to reverse sentence
+// 2. using for loop to reverse sentence
 
 // let rev = '';
 // for(let i = 0; i < sentence.length; i++){
@@ -588,8 +586,7 @@
 // console.log(rev);
 
 
-// using for of loop to reverse sentence
-
+// 3. using for of loop to reverse sentence
 
 // let reverse = '';
 // for(const letter of sentence){
@@ -776,7 +773,7 @@
 // }
 // console.log(reverse);
 
-const numbers = [23, 34, 23, 123, 5644, 4323];
+// const numbers = [23, 34, 23, 123, 5644, 4323];
 // console.log(numbers);
 // const rev2 = numbers.reverse();
 // console.log(rev2);
@@ -806,19 +803,222 @@ const numbers = [23, 34, 23, 123, 5644, 4323];
 //     console.log(srt);
 // }
 
-const personName = ["kashem", "lashem", "pashem", "kasen", "laden"];
+// const personName = ["bashem", "dashem", "aashem", "easen", "caden"];
 
-const perNam = personName[2] = "anis";
+// sort an array with decending and acending order
+
+// const asc = personName.sort();
+// console.log(asc);
+
+// const perNam = personName[2] = "anis";
 // console.log(perNam);
 
 // console.log("change value " +personName);
 
-const rev = [];
-for(const rev_rev of personName){
-    rev.unshift(rev_rev);
-}
+// const rev = [];
+// for(const rev_rev of personName){
+//     rev.unshift(rev_rev);
+// }
 // console.log(rev);
 
-for(let i = personName.length -1; i >= 0; i--){
+// for(let i = personName.length -1; i >= 0; i--){
     // console.log(personName[i]);
+// }
+
+// const number = [12, 34, 65, 23, 89, 56, 1, 3, 6];
+// const num = number.sort(function(a,b) {return a - b});
+// console.log(num);
+
+// const number2 = [4, 7, 5, 9, 1, 3, 10];
+// const num2 = number2.sort();
+// console.log(num2);
+
+
+// ARRAY--LOOPING TASKS
+
+// task 1 -->
+// const color = ['red', 'blue', 'green', 'yellow', 'orange'];
+
+// const colorRev = [];
+// for(const rev of color){
+//     colorRev.unshift(rev);
+// }
+// console.log(colorRev);
+
+// task 2 --->
+
+// const inputNumber = [12, 98, 5, 41, 23, 78, 46];
+
+// for(const input of inputNumber){
+//     if(input % 2 === 0){
+//         // console.log( "even numbers : " + input);
+//     }
+// }
+
+// task 3 ---->
+
+// const names = ["tom", "tim", "tin", "tik", "tok"];
+
+// const nam = names.join(" ");
+// console.log(nam);
+
+// const sta = statement.split();
+// console.log(sta);
+
+// console.log(typeof statement);
+
+// const statement = 'I am a hard working person'
+
+// let sentence3 = "";
+// for(const letter of statement){
+//     sentence3= letter + sentence3;
+    // console.log(sentence3);
+// }
+
+// let sentence4 = "";
+// for(let i = 0; i > statement.length; i--){
+    // const letter = statement[i];
+    // console.log(letter);
+    // console.log(statement[i]);
+// }
+
+// const sentence2 = statement.split(" ").reverse().join(" ");
+// console.log(sentence2);
+
+
+const sentences = "hi i am a junior web developer";
+
+// let rev = "";
+// for(let i = 0; i < sentences.length; i++){
+//    const letter = sentences[i];
+//    rev = letter + rev;
+// }
+// console.log(rev);
+
+// let rev = '';
+// for(let i = 0; i < sentences.length; i++){
+//     const letter = sentences[i];
+//     rev = letter + rev;
+// }
+// console.log(rev);
+
+// let sen = "";
+// for(const letter of sentences){
+//    sen = letter + sen;
+//    console.log(sen);
+// }
+
+// const letters = sentences.split(" ").reverse().join(" ");
+// console.log(letters);
+
+// -------------------------------FUNCTION CLASS--------------------------------
+//  1........ WHAT ARE FUNCTION AND FUNCTION SYNTAX
+
+// DECLEAR FUNCTION 
+
+// function money(taka1, taka2, taka3){
+//     const totalMoney = taka1 + taka2 + taka3;
+//     console.log(totalMoney);
+// }
+// money(200, 400, 199);
+
+// function myHealth(){
+//     console.log("mon vhalo ny");
+//     console.log("sorir betha");
+// }
+// myHealth();
+
+// RETURN SQUARE NUMBER 
+
+// function square(number){
+//     const borgo = number * number;
+//     console.log( "square number : " + borgo);
+// }
+// square(4);
+// console.log("-------------------");
+// square(8); 
+// console.log("-------------------");
+// square(19);
+// console.log("-------------------");
+// square(20);
+// console.log("-------------------");
+
+// function diffrenece(fatherAge, myAge){
+//     const difff = fatherAge - myAge;
+//     console.log(fatherAge , myAge , "  diffrence " , difff);
+// }
+// const fatherAge = 54;
+// const myAge = 21;
+// diffrenece(fatherAge, myAge);
+
+// function toureFunction(place, year){
+//     console.log(place,year)
+// }
+// const place = "kolkata";
+// const Year = 2027;
+// toureFunction("my fav place is " + place + ", in sha Allha one day i will go, " + place + " in " + Year);
+
+// console.log("--------------------");
+
+// const place2 = "canada";
+// const year2 = 2028;
+// toureFunction("my fav place is " + place2 + ", in sha Allha one day i will go, " + place2 + " in " + year2);
+
+// sum numbers
+// function addtionNumbers(num1, num2){
+//      const total = num1 + num2;
+//      return total;
+// }
+// const result = addtionNumbers(10, 39);
+// console.log("sum number : " + result);
+
+// sub numbers
+// function subNumbers(num1 , num2){
+//    const total = num1 - num2;
+//    return total;
+// }
+// const num1 = 49;
+// const num2 = 23;
+// const result2 = subNumbers(num1, num2);
+// console.log("sub numbers : " + result2); 
+
+// square numbers 
+
+// function squareNumbers(number){
+//     const total =  number * number;
+//     return total;
+// }
+
+// const result3 = squareNumbers(50);
+// console.log( "square number : " + result3); 
+
+// function isEven(number){
+//     if(number % 2 === 0){
+//         return true;
+//     } else {
+//         return false;
+//     }
+// }
+
+// const result = isEven(5);
+// console.log(result);
+
+// const result4 = isEven(10);
+// console.log(result4);
+// console.log(isEven(5));
+// console.log(isEven(8));
+
+function isOddNumbers(number){
+    if(number % 2 !==0 ){
+        return true;
+    }
+    return false;
 }
+// console.log(isOddNumbers(5));
+// console.log(isOddNumbers(20));
+
+// const res = isOddNumbers(5);
+// console.log("odd number : " + res);
+
+// const res2 = isOddNumbers(10);
+// console.log("odd number : " + res2);
