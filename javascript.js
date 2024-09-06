@@ -1094,3 +1094,116 @@ const sentences = "hi i am a junior web developer";
 
 // const num2 = 4;
 // console.log(cheakFunction(num2, false));
+
+// FUNCTION IN ARRAY
+
+// function myArray(number){
+//    const array = number.length;
+//    return array;
+// }
+
+// const littleArray = [1, 34, 12, 54, 23];
+// console.log(myArray(littleArray));
+
+// function myObject(person){
+//     const object = person.fname;
+//     const object2 = person.age;
+//     // return object, object2;
+//     console.log(object, object2);
+// }
+
+// const myObject2 = {
+//     fname: "lalu",
+//     lname: "kalu",
+//     age: 23
+// }
+// myObject(myObject2);
+
+
+// objective : write a function to given me the sum of all numbers in an array
+
+// function sumNumbers(numbrs){
+//     let sum = 0;
+//     for(const num of numbrs){
+//         sum = sum + num;
+//         console.log(sum);
+//     }
+//     return sum;
+// }
+// const sumArray = [2, 4, 12, 85, 99];
+// const sum = sumNumbers(sumArray);
+// console.log( "sum of numbers : " ,sum);
+
+// function sumOfNumbers(numbers){
+//     let x = 0;
+//     for(const num of numbers){
+//         x = x + num;
+//        console.log(x);
+//     }
+//     return x;
+// }
+// const sumArray = [23, 43, 12, 645];
+// const sum = sumOfNumbers(sumArray);
+// console.log( "sum of numbers " ,sum);
+
+// function mySumNumbers(number){
+//     let sum = 0;
+//     for(const x of number){
+//         sum = sum + x;
+//         console.log(sum);
+//     }
+//     return sum;
+// }
+// const sumArray = [200, 400, 2, 434, 100];
+// const sum = mySumNumbers(sumArray);
+// console.log( "sum of the array " ,sum);
+
+
+// function myFunction(numbers){
+//     let i = 0;
+//     for(const num of numbers){
+//         console.log(num);
+//         i = i + num;
+//         // console.log(i);
+//     }
+//     return i;
+// }
+// const sumArray = [2, 4, 6, 8, 9, 5];
+// const sum = myFunction(sumArray);
+// console.log( "sum of numbers " ,sum);
+
+
+// RETURN ALL THE EVEN NUMBERS OF AN ARRAY
+
+// function sumOfEvenNumbers(numbers){
+//     // console.log(numbers);
+//     let newArray = [];
+//     let sum = 0;
+//     for(const num of numbers){
+//         if(num % 2=== 0){
+//             newArray.push(num);
+//             sum = sum + num;
+//         }
+//     }
+//     console.log( "sum of even numbers :" ,sum);
+//     return newArray;
+// }
+// const sumArray = [2, 43, 1, 64, 99, 34, 6];
+// const sum = sumOfEvenNumbers(sumArray);
+// console.log( "sum of even numbers :" ,sum);
+
+function arrayOfOddNumbers(numbers){
+    let i = [];
+    for(const num of numbers){
+        if(num % 2 === 1){
+            // i = i + num;
+            i.unshift(num);
+            console.log(num);
+        }
+    }
+    return i;
+}
+const numArray = [2, 3, 1, 43, 6, 34, 7];
+const isOddNumbers = arrayOfOddNumbers(numArray);
+console.log( "array sum in odd numbers" ,isOddNumbers);
+
